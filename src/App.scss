@@ -1,0 +1,49 @@
+@import './assets/scss/colors';
+
+// General properties
+
+html,
+body,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $--color-blanco;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.btn-primary {
+  background-color: $--color-rojo;
+  border-color: $--color-rojo;
+
+  &:hover {
+    background-color: $--color-azul;
+  }
+}
+
+.minusDisplayPlus {
+  & .btn-primary {
+    width: 36px;
+    height: 40px;
+  }
+
+  & span {
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+  }
+}

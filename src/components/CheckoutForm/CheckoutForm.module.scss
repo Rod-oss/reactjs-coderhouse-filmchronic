@@ -1,0 +1,19 @@
+@import '../../assets/scss/colors';
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  min-width: 300px;
+
+  & input::placeholder {
+    color: $--color-gris-azulado;
+    opacity: 0.3;
+  }
+}
