@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/react-coderhouse-project/',
+  base: "https://Rod-oss.github.io/reactjs-coderhouse-filmchronic",
   server: { host: true },
   plugins: [react()],
 })
