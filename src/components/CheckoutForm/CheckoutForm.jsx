@@ -61,7 +61,7 @@ function CheckoutForm({ handleName, handlePhone, handleEmail, handleCaptcha, sen
         <textarea name='total' className='d-none' value={JSON.stringify(cart.reduce((accumulator, item) => accumulator + item.price * item.quantity, 0))} readOnly />
 
 
-        <ReCAPTCHA sitekey='6Ledm1soAAAAAGwoRJq8JOw5VBLOZgV0NUcZzt4v' onChange={handleCaptcha} />
+        <ReCAPTCHA sitekey='6Le3PCwpAAAAAE_UP7GfTcNuDR1niP1a3aCdKawv' onChange={handleCaptcha} />
 
         <div className='d-flex justify-content-center'>
           <button type='submit' className='btn btn-primary mt-4'>Crear orden</button>
